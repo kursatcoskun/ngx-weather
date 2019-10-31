@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-weather": [
+        "dist/ngx-weather"
+      ],
+      "ngx-weather/*": [
+        "dist/ngx-weather/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
